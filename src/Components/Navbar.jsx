@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+// Navbar.js
+import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
@@ -8,13 +9,22 @@ import turkishFlag from '../Images/turkish-flag.png';
 import azerbaijaniFlag from '../Images/azerbaijani-flag.png';
 import logo from "../Images/logo.png";
 import CV from "../Images/CV.jpg";
+import LogoSpinner from './Pages/LogoSpinner';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [loading, setLoading] = useState(true); 
 
   const { t, i18n } = useTranslation();
   const location = useLocation();
+
+  useEffect(() => {
+ 
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -40,6 +50,7 @@ const Navbar = () => {
 
   return (
     <div className="Navbar">
+      {loading && <LogoSpinner />}
       <div className="logo">
         <Link to="/">
           <img src={logo} alt="logo" />
