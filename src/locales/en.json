@@ -1,0 +1,56 @@
+
+
+{
+    "navbar": {
+      "about": "About",
+      "experience": "Experience",
+      "education": "Education",
+      "work": "Work",
+      "contact": "Contact"
+    },
+    "about": {
+      "title": "Hi, my name is",
+      "name": "Rustamov Ali.",
+      "hoverTitle":"I'm a",
+      "hoverTitle1": "Front End Developer",
+      "hoverTitle2": "PHP Developer",
+      "hoverTitle3": "Project Manager",
+      "subtitle": "I build things for the web.",
+      "aboutMe": "About Me",
+      "description1": "I work as a front-end developer and specialize in using React.js to create user-friendly interfaces.",
+      "description2": "My problem-solving skills shine through in optimizing front-end projects, where React.js plays a key role in achieving a positive user experience.",
+      "description3": "Keeping pace with the latest web development trends, I apply my knowledge of React.js to build dynamic and efficient web applications."
+    },
+    "contact": {
+      "phone": "+994-50-664-33-72",
+      "email": "rustamovali664@gmail.com",
+      "linkedin": "www.linkedin.com/in/12-rustamov-ali",
+      "github": "https://github.com/rustamovali0"
+    },
+    "education": {
+      "date": "2019-2023",
+      "university": "Azerbaijan University"
+    },
+    "experience": {
+      "title": "I studied Front end development in the SENIOR course.",
+      "description": "I learned JavaScript, HTML, CSS, BootStrap React.js, Git, and GitHub."
+    },
+    "work": {
+      "senior": {
+        "title": "Senior Course",
+        "date": "March 2023 - 2024",
+        "description": "I was a mentor in the senior course. While working, I had the pleasure of teaching students HTML, CSS, JavaScript, and React. I helped them develop their skills and abilities in these areas by explaining fundamental web development concepts. During the training process, we enhanced learning through interactive projects and hands-on exercises."
+      },
+      "webcoder": {
+        "title": "WebCoder Company",
+        "date": "March 2024 - Present",
+        "description": "I work as a front-end developer, focusing on creating user-friendly interfaces for websites and web apps. Using HTML, CSS, JavaScript and React, I bring designs to life and ensure a smooth user experience. I collaborate with designers and back-end developers to integrate front-end elements effectively. My aim is to build engaging and responsive interfaces that meet user needs."
+      },
+      "navimax": {
+        "title": "Navimax MMC",
+        "date": "March 2022 - 2023",
+        "description": "I worked project manager. I worked as a project manager overseeing the testing of websites and mobile applications. I carefully examine user experience, functionality, and performance. Coordination from start to finish of the project is crucial, emphasizing teamwork and communication. My goal is to maintain high levels of customer satisfaction and product quality."
+      }
+    }
+  }
+  

@@ -1,0 +1,55 @@
+
+{
+    "navbar": {
+      "about": "Hakkımda",
+      "experience": "Deneyim",
+      "education": "Eğitim",
+      "work": "Çalışma",
+      "contact": "İletişim"
+    },
+    "about": {
+      "title": "Merhaba, benim adım",
+      "name": "Rustamov Ali.",
+      "hoverTitle":"Ben",
+      "hoverTitle1": "React Developeriyim",
+      "hoverTitle2": "PHP Developeriyim",
+      "hoverTitle3": "Proje Menejeriyim",
+      "subtitle": "Web için şeyler inşa ediyorum.",
+      "aboutMe": "Benim Hakkımda",
+      "description1": "Ben bir ön uç geliştirici olarak çalışıyorum ve kullanıcı dostu arayüzler oluşturmak için React.js kullanmayı özel olarak yapıyorum.",
+      "description2": "Problem çözme becerilerim, React.js'in olumlu bir kullanıcı deneyimi elde etmede önemli bir rol oynadığı ön uç projelerinin optimize edilmesinde ortaya çıkıyor.",
+      "description3": "En son web geliştirme trendleri ile ayak uydurarak, React.js bilgimi dinamik ve verimli web uygulamaları oluşturmak için kullanıyorum."
+    },
+    "contact": {
+      "phone": "+994-50-664-33-72",
+      "email": "rustamovali664@gmail.com",
+      "linkedin": "www.linkedin.com/in/12-rustamov-ali",
+      "github": "https://github.com/rustamovali0"
+    },
+    "education": {
+      "date": "2019-2023",
+      "university": "Azerbaycan Üniversitesi"
+    },
+    "experience": {
+      "title": "Ön uç geliştirme alanında SENIOR kursunu okudum.",
+      "description": "JavaScript, HTML, CSS, BootStrap React.js, Git ve GitHub'ı öğrendim."
+    },
+    "work": {
+      "senior": {
+        "title": "Senior Kursu",
+        "date": "Mart 2023 - 2024",
+        "description": "Ben senior kursunda mentorluk yapıyorum. Çalışırken, öğrencilere HTML, CSS, JavaScript ve React dersleri vermekten mutluluk duydum. Temel web geliştirme kavramlarını açıklayarak bu alanlardaki becerilerini ve yeteneklerini geliştirmelerine yardımcı oldum. Eğitim sürecinde, interaktif projeler ve uygulamalı egzersizlerle öğrenmeyi artırdık."
+      },
+      "webcoder": {
+        "title": "WebCoder Şirketi",
+        "date": "Mart 2024 - Şu Anda",
+        "description": "Ben bir ön uç geliştirici olarak çalışıyorum ve web siteleri ve uygulamalar için kullanıcı dostu arayüzler oluşturmak için odaklanıyorum. HTML, CSS, JavaScript ve React kullanarak tasarımları hayata geçiriyor ve kullanıcı deneyimini sağlıyorum. Tasarımcılar ve arka uç geliştiricileriyle işbirliği yaparak ön uç öğelerini etkili bir şekilde entegre ediyorum. Amacım, kullanıcı ihtiyaçlarını karşılayan etkileşimli ve duyarlı arayüzler oluşturmaktır."
+      },
+      "navimax": {
+        "title": "Navimax MMC",
+        "date": "Mart 2022 - 2023",
+        "description": "Ben proje yöneticisi olarak çalışıyordum. Web sitelerinin ve mobil uygulamaların test edilmesini denetliyordum. Kullanıcı deneyimi, işlevsellik ve performansı dikkatlice inceliyordum. Proje başlangıcından bitişine kadar koordinasyon, takım çalışması ve iletişim önemlidir. Amacım, yüksek müşteri memnuniyeti ve ürün kalitesi seviyelerini korumaktır."
+      }
+    }
+  }
+  

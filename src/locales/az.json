@@ -1,0 +1,57 @@
+
+
+{
+    "navbar": {
+      "about": "Haqqımda",
+      "experience": "Təcrübə",
+      "education": "Təhsil",
+      "work": "İş",
+      "contact": "Əlaqə"
+    },
+    "about": {
+      "title": "Salam, menim adım",
+      "name": "Rustamov Ali.",
+      "hoverTitle":"Mən",
+      "hoverTitle1": "React Developeriyəm",
+      "hoverTitle2":"PHP Developeriyəm" ,
+      "hoverTitle3": "Proyekt Meneceriyəm",
+
+      "subtitle": "Mən veb saytlar qururam.",
+      "aboutMe": "Mənim haqqımda",
+      "description1": "Mən front end kimi çalışıram və React.js istifadə edərək istifadəçi dostu interfeyslər yaradıram.",
+      "description2": "Mənim problem həll etmə bacarıqlarım, React.js-in müsbət istifadəçi təcrübəsi əldə etməkdə əsas rol oynadığı front end layihələrini optimallaşdırmağa çəkinir.",
+      "description3": "Ən son veb inkişaf tendensiyaları ilə səpələnmək, mənim React.js biliklərimi dinamik və effektiv veb tətbiqləri qurmaq üçün tətbiq edirəm."
+    },
+    "contact": {
+      "phone": "+994-50-664-33-72",
+      "email": "rustamovali664@gmail.com",
+      "linkedin": "www.linkedin.com/in/12-rustamov-ali",
+      "github": "https://github.com/rustamovali0"
+    },
+    "education": {
+      "date": "2019-2023",
+      "university": "Azərbaycan Universiteti"
+    },
+    "experience": {
+      "title": "Mən SENIOR kursunda front end üzrə təhsil aldım.",
+      "description": "JavaScript, HTML, CSS, BootStrap React.js, Git və GitHub öyrəndim."
+    },
+    "work": {
+      "senior": {
+        "title": "Senyor Kursu",
+        "date": "Mart 2023 - 2024",
+        "description": "Mən senior kursunda mentor İşləmişəm. İşləyərkən, tələbələrə HTML, CSS, JavaScript və React dərs verdiyimə sevinirəm. Onlara bu sahədə bacarıqlarını və biliklərini izah edərək inkişaf etmələrinə kömək etdim. Təlim prosesində, interaktiv layihələr və praktiki təlimlər vasitəsilə öyrənməni təkmilləşdirdik."
+      },
+      "webcoder": {
+        "title": "WebCoder Şirkəti",
+        "date": "Mart 2024 - Hazırda",
+        "description": "Men front end developer kimi işləyirəm və istifadəçi dostu interfeyslər yaratmağa fokuslanıram. HTML, CSS, JavaScript və React istifadə edərək dizaynları həyata keçirirəm və istifadəçi təcrübəsini yüngülləşdirirəm. Dizaynerlərlə və arxa uç proqramçıları ilə birgə işləyərək ön tərəf elementlərini effektiv şəkildə birləşdirirəm. Məqsədim istifadəçi ehtiyaclarını qarşılayan cəzbləyici və responsiv interfeyslər yaratmaktır."
+      },
+      "navimax": {
+        "title": "Navimax MMC",
+        "date": "Mart 2022 - 2023",
+        "description": "Mən layihə meneceri kimi işləyirdim. Veb saytların və mobil tətbiqlərin sınaqdan keçirilməsini nəzarət edirdim. İstifadəçi təcrübəsini, funksionallığı və performansı diqqətlə qiymətləndirirdim. Layihənin başlanğıcından sonuna qədər koordinasiya, komanda işi və kommunikasiya əhəmiyyətli əhəmiyyətə malikdir. Məqsədim yüksək səviyyədə müştəri məmnuniyyəti və məhsul keyfiyyətini qorumaqdır."
+      }
+    }
+  }
+  

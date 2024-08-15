@@ -1,0 +1,1174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+24&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(10, 25, 47);
+}
+
+a {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 18.5rem;
+  height: 5rem;
+}
+.NavUl ul li.active {
+  text-shadow: 3px 3px 4px #ffffff;
+  border-radius: 10px;
+}
+
+.NavUl ul {
+  display: flex;
+  color: white;
+  gap: 6.8rem;
+  font-size: 1.9rem;
+  list-style-type: decimal-leading-zero;
+}
+
+.NavUl ul li::marker {
+  color: rgb(72, 191, 167);
+}
+
+.NavUl ul li {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.burgerMenu,
+.close {
+  display: none;
+  cursor: pointer;
+  font-size: 3rem;
+  color: #ffffff;
+  position: absolute;
+  top: 3.5rem;
+  right: 2rem;
+}
+
+.close {
+  display: none;
+  cursor: pointer;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.NavUl ul li:hover {
+  text-shadow: 3px 3px 4px #ffffff;
+}
+.ResponsiveUl ul li:hover {
+  text-shadow: 3px 3px 4px #ffffff;
+}
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4.8rem 5.5rem 0rem 5.5rem;
+  width: 100%;
+  height: 10rem;
+}
+
+.NavUl {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.NavUl #resumeBtn {
+  margin-left: 5rem;
+  width: 10rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 1px solid rgb(72, 191, 167);
+  border-radius: 5px;
+  color: rgb(72, 191, 167);
+  transition: 0.5s;
+  font-size: 1.9rem;
+}
+
+.NavUl #resumeBtn:hover {
+  background-color: rgb(72, 191, 167);
+  border: 1px solid rgb(72, 191, 167);
+  border-radius: 5px;
+  color: white;
+}
+/* RESUME */
+.modal-overlay {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative;
+  width: 33rem;
+  height: 80%;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #888;
+}
+
+.modal-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Resmi kapsayıcı kutuya uygun şekilde ayarla */
+}
+
+.closeBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  color: #ff0000; /* Kapatma butonunun üzerine gelindiğinde renk değişimi */
+}
+
+
+/* RESUME */
+.ResponsiveUl {
+  display: none;
+  z-index:4;
+  position: relative;
+}
+.responsiveUlCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  width: 30rem;
+  height: 27rem;
+  background-color: rgba(10, 25, 47, 0.734);
+  position: absolute;
+  top: 8rem;
+  right: 9rem;
+}
+
+.ResponsiveUl ul {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  list-style-type: decimal-leading-zero;
+  gap: 1.7rem;
+}
+
+.ResponsiveUl ul li {
+  margin: 0.5rem 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.ResponsiveUl ul li::marker {
+  color: rgb(72, 191, 167);
+}
+.ResponsiveUl #resumeBtn {
+  width: 10rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 1px solid rgb(72, 191, 167);
+  border-radius: 5px;
+  color: rgb(72, 191, 167);
+  transition: 0.5s;
+  font-size: 1.9rem;
+}
+
+.ResponsiveUl #resumeBtn:hover {
+  background-color: rgb(72, 191, 167);
+  border: 1px solid rgb(72, 191, 167);
+  color: white;
+}
+
+/* -------------------------ABOUT------------------------------------------ */
+.wrapper{
+  display: flex;
+
+}
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 0.7rem;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts .dynamic-li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 50px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+
+
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  background: #0a192f;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+.About {
+  padding: 5rem 10rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.About h4 {
+  color: rgb(72, 191, 167);
+  font-family: "Jacquard 24", system-ui;
+  font-size: 3.8rem;
+}
+
+.About h1 {
+  color: white;
+  font-size: 7rem;
+  font-family: "Jacquard 24", system-ui;
+}
+.About p {
+  color: white;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.About h3 {
+  color: white;
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.lineAbout {
+  width: 63rem;
+  height: 3px;
+  background-color: aqua;
+  display: inline-block;
+}
+
+.About article p {
+  padding-bottom: 1rem;
+}
+.About article {
+  width: 85rem;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logoReact img {
+  width: 35rem;
+  height: 35rem;
+  margin: 5rem 0rem 0rem 7rem;
+  animation: rotate 10s linear infinite;
+}
+
+/* -------------------------ABOUT------------------------------------------ */
+/* -------------------------Experience------------------------------------------ */
+.Experience {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+.Experience h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.Experience h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+.Experience article {
+  padding: 5rem;
+}
+.Experience img {
+  background-color: rgba(27, 240, 255, 0);
+  cursor: pointer;
+}
+/* -------------------------Experience------------------------------------------ */
+/* -------------------------Education------------------------------------------ */
+.Education {
+  color: #ffffff;
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.Education h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.Education h3 {
+  color: rgb(72, 191, 167);
+  font-family: "Roboto", sans-serif;
+
+  font-size: 3rem;
+}
+.Education img {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+}
+/* -------------------------Education------------------------------------------ */
+/* -------------------------Word------------------------------------------ */
+.Work {
+  color: white;
+}
+.Work h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+.Work h4 {
+  color: rgb(72, 191, 167);
+  font-family: "Roboto", sans-serif;
+
+  font-size: 1.5rem;
+}
+.Work h2 {
+}
+.Work p {
+}
+
+.Work .img1 {
+  width: 20rem;
+  height: 7rem;
+  margin-bottom: 2rem;
+}
+.Work .img2 {
+  width: 20rem;
+  height: 9rem;
+}
+.Work .img3 {
+  width: 20rem;
+  height: 5rem;
+  margin-top: 1.7rem;
+  margin-bottom: 2.4rem;
+}
+.WorkCard {
+  width: 30rem;
+  height: 43rem;
+  background-color: rgb(18, 45, 85);
+  margin-right: 3rem;
+  padding: 1.2rem;
+  margin: 1rem;
+}
+.WorkCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 5rem;
+  flex-wrap: wrap;
+}
+/* -------------------------Word------------------------------------------ */
+/* -------------------------Contact------------------------------------------ */
+.Contact {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 7rem;
+  /* padding: 5rem; */
+}
+.contactCard {
+  width: 27rem;
+  height: 35rem;
+  background-color: rgb(18, 45, 85);
+  margin-right: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9rem;
+  transition: 0.5s;
+  margin: 1rem;
+}
+.contactCard h2{
+  font-size: 1.5rem;
+}
+.contactCard:hover {
+  cursor: pointer;
+  box-shadow: 8px 10px 10px 0px rgba(255, 255, 255, 0.5);
+}
+.icon {
+  font-size: 5rem;
+  text-align: center;
+}
+/* -------------------------Contact------------------------------------------ */
+
+/* ========================================================================= */
+@media only screen and (max-width: 1199px) {
+  /* Büyük ekranlar için özel stillemeler buraya */
+  .NavUl ul {
+    gap: 5rem;
+    font-size: 1.6rem;
+  }
+  .NavUl #resumeBtn {
+    margin-left: 3rem;
+
+    font-size: 1.6rem;
+  }
+
+  .About h1 {
+    color: white;
+    font-size: 5.5rem;
+    font-family: "Jacquard 24", system-ui;
+  }
+  .About p {
+    color: white;
+    font-size: 1.7rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .About h3 {
+    color: white;
+    font-size: 2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}
+@media only screen and (max-width: 1159px) {
+  /* Tablet için özel stillemeler buraya */
+  .About {
+    padding: 5rem 10rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .About .logoReact img {
+    width: 35rem;
+    height: 35rem;
+    margin: 5rem 0rem 0rem 7rem;
+  }
+  .About .logoReact img {
+    width: 30rem;
+    height: 30rem;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 991px) {
+  /* Tablet için özel stillemeler buraya */
+  .About {
+    padding: 5rem 10rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .lineAbout {
+    width: 63rem;
+    height: 3px;
+    background-color: aqua;
+    display: inline-block;
+  }
+  .Education {
+    color: #ffffff;
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+  .Education h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .Education h3 {
+    color: rgb(72, 191, 167);
+    font-family: "Roboto", sans-serif;
+  
+    font-size: 2rem;
+  }
+  .Education img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+  }
+  
+.Work h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.Work h4 {
+  color: rgb(72, 191, 167);
+  font-family: "Roboto", sans-serif;
+
+  font-size: 1rem;
+}
+.Work h3 {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 1.4rem;
+}
+.Work .img1 {
+  width: 17rem;
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+.Work .img2 {
+  width: 17rem;
+  height: 7rem;
+}
+.Work .img3 {
+  width: 15rem;
+  height: 3rem;
+  margin-top: 1.7rem;
+  margin-bottom: 2.4rem;
+}
+.WorkCard {
+  width: 25rem;
+  height: 38rem;
+  background-color: rgb(18, 45, 85);
+  margin-right: 3rem;
+  padding: 2rem;
+  margin: 1rem;
+}
+.WorkCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 5rem;
+  flex-wrap: wrap;
+}
+
+.Contact {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  padding: 5rem;
+}
+.contactCard {
+  width: 34rem;
+  height: 35rem;
+  background-color: rgb(18, 45, 85);
+  margin-right: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9rem;
+  transition: 0.5s;
+  margin: 1rem;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .NavUl {
+    display: none;
+  }
+
+  .burgerMenu.active {
+    display: block;
+  }
+
+  .close.active {
+    display: block;
+  }
+
+  .ResponsiveUl.active {
+    display: flex;
+  }
+  .About h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: "Jacquard 24", system-ui;
+  }
+  .About p {
+    color: white;
+    font-size: 1.3rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .About h3 {
+    color: white;
+    font-size: 2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .About h4 {
+    color: rgb(72, 191, 167);
+    font-family: "Jacquard 24", system-ui;
+    font-size: 2.5rem;
+  }
+  .lineAbout {
+    width: 50rem;
+    height: 3px;
+    background-color: aqua;
+    display: inline-block;
+  }
+  .About .logoReact img {
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+  }
+  .About {
+    padding: 5rem 10rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .dropdownRes{
+   margin-top: 2rem;
+   }
+  .Education {
+    color: #ffffff;
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+  .Education h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .Education h3 {
+    color: rgb(72, 191, 167);
+    font-family: "Roboto", sans-serif;
+  
+    font-size: 2rem;
+  }
+  .Education img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+  }
+  
+.Work h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.Work h4 {
+  color: rgb(72, 191, 167);
+  font-family: "Roboto", sans-serif;
+
+  font-size: 1rem;
+}
+.Work h3 {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 1.4rem;
+}
+.Work .img1 {
+  width: 17rem;
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+.Work .img2 {
+  width: 17rem;
+  height: 7rem;
+}
+.Work .img3 {
+  width: 15rem;
+  height: 3rem;
+  margin-top: 1.7rem;
+  margin-bottom: 2.4rem;
+}
+.WorkCard {
+  width: 25rem;
+  height: 38rem;
+  background-color: rgb(18, 45, 85);
+  margin-right: 3rem;
+  padding: 2rem;
+  margin: 1rem;
+}
+.WorkCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 5rem;
+  flex-wrap: wrap;
+}
+
+.Contact {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  padding: 5rem;
+}
+.contactCard {
+  width: 33rem;
+  height: 30rem;
+  background-color: rgb(18, 45, 85);
+  margin-right: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9rem;
+  transition: 0.5s;
+  margin: 1rem;
+}
+.Experience {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+.Experience h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.Experience h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+}
+.Experience article {
+  padding: 5rem;
+}
+.Experience img {
+  background-color: rgba(27, 240, 255, 0);
+  cursor: pointer;
+  width: 30rem;
+}
+/* TextWrapper */
+
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 2.2rem;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 65px;
+  line-height: 10px;
+  overflow: hidden;
+
+}
+.dynamic-txts .dynamic-li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+
+
+}
+
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0; 
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0px;
+  height: 55px;
+  width: 100%;
+  background: #0a192f;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 40%);
+  }
+  100%{
+    left: 0;
+  }
+}
+/* TextWrapper */
+}
+@media only screen and (max-width: 524px) {
+  .About h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: "Jacquard 24", system-ui;
+  }
+  .About p {
+    color: white;
+    font-size: 1.3rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .About h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .About h4 {
+    color: rgb(72, 191, 167);
+    font-family: "Jacquard 24", system-ui;
+    font-size: 2rem;
+  }
+  .lineAbout {
+    width: 30rem;
+    height: 3px;
+    background-color: aqua;
+    display: inline-block;
+  }
+  .About .logoReact img {
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+  }
+  .About {
+    padding: 5rem 10rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .responsiveUlCon {
+    top: 8rem;
+    right: 3rem;
+  }
+
+  /* ---------------------------------------- */
+  .Education {
+    color: #ffffff;
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .Education h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .Education h3 {
+    color: rgb(72, 191, 167);
+    font-family: "Roboto", sans-serif;
+  
+    font-size: 2rem;
+  }
+  .Education img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+  }
+  
+.Work h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.Work h4 {
+  color: rgb(72, 191, 167);
+  font-family: "Roboto", sans-serif;
+
+  font-size: 1rem;
+}
+.Work h3 {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 1.4rem;
+}
+.Work .img1 {
+  width: 17rem;
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+.Work .img2 {
+  width: 17rem;
+  height: 7rem;
+}
+.Work .img3 {
+  width: 15rem;
+  height: 3rem;
+  margin-top: 1.7rem;
+  margin-bottom: 2.4rem;
+}
+.WorkCard {
+  width: 25rem;
+  height: 38rem;
+  background-color: rgb(18, 45, 85);
+  margin-right: 3rem;
+  padding: 2rem;
+  margin: 1rem;
+}
+.WorkCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 5rem;
+  flex-wrap: wrap;
+}
+
+.Contact {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  padding: 5rem;
+}
+.Contact h2 {
+  font-size: 1.4rem;
+}
+.contactCard {
+  width: 22rem;
+  height: 30rem;
+  background-color: rgb(18, 45, 85);
+  margin-right: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9rem;
+  transition: 0.5s;
+  margin: 1rem;
+}
+.Experience {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+.Experience h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.Experience h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem;
+}
+.Experience article {
+  padding: 5rem;
+}
+.Experience img {
+  background-color: rgba(27, 240, 255, 0);
+  cursor: pointer;
+  width: 20rem;
+}
+/* TextWrapper */
+
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 2.9rem;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 65px;
+  line-height: 10px;
+  overflow: hidden;
+
+}
+.dynamic-txts .dynamic-li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+
+
+}
+
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0; 
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0px;
+  height: 25px;
+  width: 100%;
+  background: #0a192f;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 40%);
+  }
+  100%{
+    left: 0;
+  }
+}
+/* TextWrapper */
+}
+
+/* Navbar.css */
+/* ---------------------Language dropdown -------------------------------- */
+.dropbtn {
+  background-color: #0a192f;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  margin-left: 3rem;
+  
+}
+.dropbtn {
+  background-color: #0a192f;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  margin-left: 3rem;
+  
+}
+.dropbtn img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdownRes {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+ width: 9.5rem;
+ padding: 2px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black;
+  text-decoration: none;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 10rem;
+  padding: 5px;
+  height: 3rem;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content button:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdownRes:hover .dropdown-content {
+  display: block;
+}
+
+
+.flagImg {
+  width: 25px;
+  height: 20px;
+  object-fit: cover;
+  padding-right: 2px;
+}
+
+
+
+
+
