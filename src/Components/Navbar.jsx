@@ -18,7 +18,6 @@ const Navbar = () => {
 
   const { t, i18n } = useTranslation();
   const location = useLocation();
-
   useEffect(() => {
  
     setTimeout(() => {
