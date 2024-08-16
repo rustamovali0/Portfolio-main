@@ -342,6 +342,21 @@ a {
   animation: rotate 10s linear infinite;
 }
 
+.aboutContact{
+  width: 10rem;
+  height: 3rem;
+  background-color:transparent;
+  border: 1px solid rgb(72, 191, 167);
+  border-radius: 5px;
+  color: rgb(72, 191, 167);
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  transition: 0.5s;
+}
+.aboutContact:hover{
+  background-color: rgb(72, 191, 167);
+  color: white;
+}
 /* -------------------------ABOUT------------------------------------------ */
 /* -------------------------Experience------------------------------------------ */
 .Experience {
@@ -487,7 +502,6 @@ a {
 
 /* ========================================================================= */
 @media only screen and (max-width: 1199px) {
-  /* Büyük ekranlar için özel stillemeler buraya */
   .NavUl ul {
     gap: 5rem;
     font-size: 1.6rem;

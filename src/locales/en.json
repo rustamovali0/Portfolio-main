@@ -19,7 +19,9 @@
       "aboutMe": "About Me",
       "description1": "I work as a front-end developer and specialize in using React.js to create user-friendly interfaces.",
       "description2": "My problem-solving skills shine through in optimizing front-end projects, where React.js plays a key role in achieving a positive user experience.",
-      "description3": "Keeping pace with the latest web development trends, I apply my knowledge of React.js to build dynamic and efficient web applications."
+      "description3": "Keeping pace with the latest web development trends, I apply my knowledge of React.js to build dynamic and efficient web applications.",
+      "contact": "Contact Me"
+    
     },
     "contact": {
       "phone": "+994-50-664-33-72",

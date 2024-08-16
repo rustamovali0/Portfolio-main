@@ -27,6 +27,8 @@ const About = () => {
         <p>{t('about.description1')}</p>
         <p>{t('about.description2')}</p>
         <p>{t('about.description3')}</p>
+        <button className="aboutContact" onClick={() => window.open("https://wa.me/994506643372")}>{t('about.contact')}</button>
+
       </article>
       <div className="logoReact">
         <img src={reactLogo} alt="" />
